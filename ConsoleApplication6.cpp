@@ -5,9 +5,9 @@ int main()
 {
 
     setlocale(LC_ALL, "Rus");
-    float chislo = 1;
-    float chislo2 = 0;
-    float chislo3 = 0;
+    int chislo = 1;
+    int chislo2 = 0;
+    int chislo3 = 0;
 
     while (chislo != 0) {
         cout << "[ + ] Введите число: ";
@@ -26,4 +26,5 @@ int main()
     cin >> _;
 
     return 0;
+
 }
